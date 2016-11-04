@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeFont(){
 
-        Typeface typeFace=Typeface.createFromAsset(getAssets(),"norwester.ttf");
+        //Typeface typeFace=Typeface.createFromAsset(getAssets(),"norwester.ttf");
+        Typeface typeFace = Typeface.createFromAsset(getBaseContext().getAssets(),"fonts/norwester.otf");
         txStatus.setTypeface(typeFace);
         txTemperature.setTypeface(typeFace);
         txHumidity.setTypeface(typeFace);
