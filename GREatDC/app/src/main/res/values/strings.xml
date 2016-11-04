@@ -23,4 +23,10 @@
     <string name="temperature_history">Histórico de temperatura</string>
     <string name="temperature_table">Temperatura (ºC)</string>
     <string name="time">Tempo (h)</string>
+
+    <string-array name="hours_array">
+        <item>Últimas 24h</item>
+        <item>Últimas 12h</item>
+    </string-array>
+
 </resources>
